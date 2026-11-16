@@ -13,6 +13,10 @@ def operaciones():
     # Llamar a la función de bienvenida
     bienvenida(nombre, grupo)
 
+    # Agregar los numeros que se agregaron por el usuario
+    print(f"Primer Numero: {numero1}")
+    print(f"Segundo Numero: {numero2}")
+
     # Realizar las operaciones matemáticas
     print(f"Suma: {numero1 + numero2:g}")
     print(f"Resta: {numero1 - numero2:g}")
